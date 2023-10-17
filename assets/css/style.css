@@ -430,7 +430,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -530,7 +530,7 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-.portfolio .portfolio-item {
+.portfolio .content {
   margin-bottom: 30px;
 }
 
@@ -544,6 +544,26 @@ section {
   padding: 2px 15px;
 }
 
+.portfolio .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #173b6c;
+}
+
+.portfolio .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.portfolio .content ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.portfolio .content ul strong {
+  margin-right: 10px;
+}
 .portfolio #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
